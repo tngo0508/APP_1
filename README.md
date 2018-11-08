@@ -16,6 +16,6 @@ single handy app. This app contains 4 different calculators: Tax, Tip, Unit Conv
 - **Pham,Danh** - _danhpham312@gmail.com_ - [Dpham181](https://github.com/Dpham181)
 - **Cabantug,Brian** [bcabantug](https://github.com/bcabantug)
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/tngo0508/APP_1/blob/master/LICENSE) file for details
 ## Acknowledgements
 -   **Professor Kenytt Avery** - _kavery@fullerton.edu_ - California State University, Fullerton
