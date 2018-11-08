@@ -7,4 +7,4 @@ single handy app.
 - [Multiple Activities](https://developer.android.com/training/basics/firstapp/starting-activity)
 - [ActionBar](https://developer.android.com/reference/android/support/v7/app/ActionBar)
 ## Demo of the app
-![Demo]
+![Demo](https://github.com/tngo0508/APP_1/blob/master/demo.gif)
