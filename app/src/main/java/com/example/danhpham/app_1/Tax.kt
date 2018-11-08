@@ -7,7 +7,6 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
 import android.widget.EditText
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_tax.*
 
 
@@ -20,15 +19,15 @@ internal fun cal(cost: Double?, tax: Double?): Double? {
 
 class Tax : AppCompatActivity() {
 
-    val tag = "Lifecycle of Tax"
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
+        val tag = "Lifecycle of Tax"
+    // lifecycle check
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tax)
         Log.d(tag , " onCreate()");
 
-
+    // two edittext and textwacher to onchange cal
         fun EditText.setWatcher() {
             this.addTextChangedListener(object : TextWatcher {
                 override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -43,8 +42,8 @@ class Tax : AppCompatActivity() {
                     if(input1.isNotEmpty() && input2.isNotEmpty()){
                         val finalCal = cal(java.lang.Double.valueOf(cost_input.text.toString()), java.lang.Double.valueOf(tax_input.text.toString()))
                         val finalcost= finalCal!! + java.lang.Double.valueOf(cost_input.text.toString())
-                        val ftax = finalCal.toString() + "$"
-                        val fcost = finalcost.toString() +"$"
+                        val ftax = "$" + finalCal.toString()
+                        val fcost = "$" + finalcost.toString()
                         output_tax.text = ftax
                         output_cost.text= fcost
                     }
@@ -65,6 +64,8 @@ class Tax : AppCompatActivity() {
     override fun onDestroy()
     {
         super.onDestroy();
+        Log.d(tag, " onDestroy() ");
+
     }
 
 }

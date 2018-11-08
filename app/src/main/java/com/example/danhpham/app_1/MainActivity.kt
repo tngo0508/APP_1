@@ -49,13 +49,20 @@ class MainActivity : AppCompatActivity() {
             }
 
             R.id.BMI->{
-
+                val intent = Intent(this, BMI::class.java)
+                startActivity(intent) //call asynchronous
                 true;
             }
 
             R.id.tips->{
 
                 val intent = Intent(this, Tips::class.java)
+                startActivity(intent)
+                true;
+            }
+
+            R.id.unit_converter->{
+                val intent = Intent(this, UnitConverter::class.java)
                 startActivity(intent)
                 true;
             }
