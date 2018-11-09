@@ -7,7 +7,10 @@ single handy app. This app contains 4 different calculators: Tax, Tip, Unit Conv
 - [Multiple Activities](https://developer.android.com/training/basics/firstapp/starting-activity)
 - [ActionBar](https://developer.android.com/reference/android/support/v7/app/ActionBar)
 ## Demo of the app
+### Portrait orientation
 ![Demo](https://github.com/tngo0508/APP_1/blob/master/demo.gif)
+### Landscape orientation
+![demo_landscape_mode](https://github.com/tngo0508/APP_1/blob/master/demo_landscape_mode.gif)
 ## Built-With
 - Android Studio
 - Programming Language: Kotlin
