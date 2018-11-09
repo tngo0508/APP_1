@@ -39,7 +39,6 @@ private fun convertToDeciplace(`in`: Double): String {
         df.format(`in`)
     }
 }
-
 class BMI : AppCompatActivity() {
 
     //text watcher object override for standard units
@@ -159,7 +158,6 @@ class BMI : AppCompatActivity() {
                 //calls method and listener based on unit system
                 "Standard" -> setStandardUnits(heightInMain, heightInSecond, weightInMain)
                 "Metric" -> setMetricUnits(heightInMain, heightInSecond, weightInMain)
-
             }
         }
 
